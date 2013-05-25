@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xenonhd/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 endif
 	
-ifneq ($(filter xenonhd_d2vzw xenonhd_d2usc xenonhd_xt926 ,$(TARGET_PRODUCT)),)
+ifneq ($(filter xenonhd_d2vzw xenonhd_d2usc xenonhd_dlx xenonhd_xt926 ,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
 	vendor/xenonhd/proprietary/common/etc/apns-conf-cdma.xml:system/etc/apns-conf.xml
 endif
